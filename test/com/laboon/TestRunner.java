@@ -18,7 +18,8 @@ public class TestRunner {
 	classesToTest.add(ProgramExecutorTest.class);
 	classesToTest.add(ToStringPinningTest.class);
 	classesToTest.add(GetOpCodePinningTest.class);
-
+	classesToTest.add(ModPinningTest.class);
+	
 	// For all test classes added, loop through and use JUnit
 	// to run them.
 	
